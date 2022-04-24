@@ -99,6 +99,11 @@ CSS para versão mobile*/
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
+  .container
+  {
+      margin-top: -50px;
+  }
+
   /* Fim do menu sanduíche */
 
   /* Menu navegação */

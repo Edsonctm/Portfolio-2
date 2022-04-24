@@ -19,7 +19,9 @@
 }
 
 h1.PageProjetos{
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 0px 7px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
@@ -58,4 +60,5 @@ h1.PageProjetos{
     color: white;
     text-align: justify;
     padding: 5px;
+    font-size: 1.1rem;
 }

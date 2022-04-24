@@ -1,6 +1,6 @@
 #contador {
     width: 95%;
-    height: 90vh;
+    height: 88vh;
     margin: 5px auto;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     margin: 20px 0px;
-    transform: scale(1.2);
+    transform: scale(1.7);
 }
 
 #aumentar {
