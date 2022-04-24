@@ -1,0 +1,39 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+main{
+    height: 90vh;
+}
+
+.contato{
+    height: 100%;
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: fadein 1s;
+}
+
+.contato a{
+    margin: 0px;
+    padding: 0px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.contato img{
+    height: 80px;
+}

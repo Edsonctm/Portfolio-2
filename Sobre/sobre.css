@@ -1,0 +1,59 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+details {
+    width: 95%;
+    max-width: 850px;
+    margin: 0px auto;
+}
+
+details > summary{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 18px auto;
+    font-family: 'Orelega One';
+    font-weight: 100;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(66, 66, 66, 0.6);
+    padding: 3px 0px;
+    animation: fadein 1s;
+}
+
+.pSummary{
+    text-align: justify;
+    color: white;
+    padding: 5px 5px;
+    font-size: 0.9rem;
+    text-indent: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    animation: fadein 1s;
+    margin: -10px 0px 10px 0px;
+}
+
+.pSummary p{
+    padding: 5px 0px;
+    line-height: 20px;
+}
+
+.pSummary a{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+.pSummary span{
+    font-style: italic;
+    font-size: 0.8rem;
+}

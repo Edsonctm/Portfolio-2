@@ -1,0 +1,65 @@
+/*CSS for mobile version
+CSS para versão mobile*/
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    background-image: linear-gradient(225deg, rgb(8, 43, 43), rgb(27, 102, 102));
+}
+
+header{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(225deg, rgb(4, 24, 24), rgb(17, 65, 65));
+}
+
+header h1{
+    display: inline-block;
+    width: 90%;
+    color: white;
+    font-family: 'Orelega One';
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 5px rgb(67, 67, 67);
+    text-align: right;
+    margin: 0px 10px;
+}
+
+a{
+    padding: 5px 20px;
+}
+
+/* Seta para voltar */
+
+.bar1, .bar2{
+    width: 20px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+  }
+  
+.bar1 {
+    transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+.bar2 {
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* Fim da seta para voltar */
+
+  main{
+      padding-top: 50px;
+  }
