@@ -13,7 +13,7 @@
     width: 95%;
     max-width: 850px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
@@ -49,4 +49,29 @@
     color: black;
     text-decoration: underline;
     padding: 0px;
+}
+
+/*Responsividade*/
+
+@media screen and (min-width: 1000px) {
+    .curriculo{
+        background-color: white;
+        max-width: 1000px;
+        padding: 10px 20px;
+    }
+
+    .curriculo h1{
+        font-size: 3rem;
+    }
+    .curriculo p{
+        font-size: 1.2rem;
+    }
+
+    .curriculo h2{
+        font-size: 1.5rem;
+    }
+
+    .curriculo h3{
+        font-size: 1.3rem;
+    }
 }

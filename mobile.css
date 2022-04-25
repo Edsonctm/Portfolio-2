@@ -37,9 +37,8 @@ CSS para versão mobile*/
 }
 
 .menuBarPrinc > img{
-    border: 2px solid blue;
     height: 100px;
-    width: 100px;
+    width: 200px;
     padding: auto auto;
     animation: fadein 2s;
 }
@@ -106,7 +105,45 @@ CSS para versão mobile*/
 
   /* Fim do menu sanduíche */
 
-  /* Menu navegação */
+  /*Responsividade*/
 
+  @media screen and (min-width: 1000px) {
+      .intropage {
+          background-image: linear-gradient(225deg, rgb(32, 92, 40), rgb(124, 209, 135));
+      }
 
-   /* Fim menu navegação */
+      .container{
+          display: none;
+      }
+
+      .menuBarPrinc {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+      }
+
+      .menuBarPrinc .menuNav{
+          display: flex;
+          width: 90%;
+         justify-content: space-between;
+      }
+
+      .menuNav a{
+          font-size: 3rem;
+          color: white;
+          text-shadow: 1px 1px 1px black;
+          padding: 0px 25px;
+          background-image: linear-gradient(transparent 0%, transparent 90%, rgb(6, 61, 23) 90%, rgb(6, 61, 23) 100%);
+          background-repeat: no-repeat;
+          background-size: 0% 100%;
+          background-position-x: right;
+          transition: background-size 500ms;
+      }
+
+      .menuNav a:hover{
+          background-size: 100% 100%;
+          background-position-x: left;
+      }
+      
+  }

@@ -62,3 +62,21 @@ h2 {
     color: white;
     font-weight: bold;
 }
+
+@media screen and (min-width: 1000px) {
+    .container {
+        height: 80vh;
+        margin: 0px auto;
+    }
+
+    #trabalho{
+        color: rgb(28, 38, 56);
+        font-size: 1.2rem;
+    }
+
+    #textoAvaliacao{
+        font-size: 1.5rem;
+        width: 450px;
+    }
+
+}

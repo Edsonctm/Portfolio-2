@@ -13,17 +13,20 @@ body{
     background-image: linear-gradient(225deg, rgb(8, 43, 43), rgb(27, 102, 102));
 }
 
-header{
+.desktop{
+    display: none;
+}
+
+header.mobile{
     height: 40px;
     width: 100%;
     position: fixed;
-    background-color: red;
     display: flex;
     align-items: center;
     background-image: linear-gradient(225deg, rgb(4, 24, 24), rgb(17, 65, 65));
 }
 
-header h1{
+header.mobile h1{
     display: inline-block;
     width: 90%;
     color: white;
@@ -62,4 +65,80 @@ a{
 
   main{
       padding-top: 50px;
+  }
+
+
+  /*Responsividade*/
+
+  @media screen and (min-width: 1000px) {
+      header.mobile {
+          display: none;
+      }
+
+      body {
+        background-image: linear-gradient(225deg, rgb(32, 92, 40), rgb(124, 209, 135));
+      }
+
+      header.desktop {
+        background-image: linear-gradient(225deg, rgb(7, 49, 7), rgb(124, 209, 135));
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+
+      .menuNav {
+          width: 85%;
+          margin: 0px auto;
+          display: flex;
+          justify-content: space-around;
+      }
+
+      .menuNav a {
+          color: white;
+          text-shadow: 1px 1px 1px black;
+          font-size: 2rem;
+          padding: 0px 20px;
+          background-image: linear-gradient(transparent 0%, transparent 90%, rgb(6, 61, 23) 90%, rgb(6, 61, 23) 100%);
+          background-repeat: no-repeat;
+          background-size: 0% 100%;
+          background-position-x: right;
+          transition: background-size 300ms;    
+      }
+
+      .menuNav a:hover{
+        background-size: 100% 100%;
+        background-position-x: left;
+    }
+
+      .bar1, .bar2{
+          display: none;
+    }
+
+        footer.desktop{
+            display: flex;
+            justify-content: center;
+        }
+
+        footer.desktop .contato{
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            padding: 20px 0px;
+        }
+
+        footer.desktop .contato a{
+            color: black;
+            font-size: 2.2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        footer.desktop .contato a:hover{
+            color: white;
+        }
+
+        footer.desktop .contato a img{
+            width: 50px;
+        }
+
   }

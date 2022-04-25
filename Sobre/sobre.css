@@ -57,3 +57,23 @@ details > summary{
     font-style: italic;
     font-size: 0.8rem;
 }
+
+/*Responsividade*/
+
+@media screen and (min-width: 1000px) {
+    details > summary{
+        font-size: 1.5rem;
+    }
+
+    .pSummary{
+        font-size: 1.3rem;
+    }
+
+    .pSummary p{
+        line-height: 25px;
+    }
+
+    .pSummary span{
+        font-size: 1rem;
+    }
+}

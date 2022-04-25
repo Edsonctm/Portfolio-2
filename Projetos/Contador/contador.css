@@ -54,3 +54,24 @@
 #diminuir {
     background-color: rgb(255, 107, 107);
 }
+
+@media screen and (min-width: 1000px) {
+
+    #contador{
+        width: 90%;
+        height: 70vh;
+    }   
+
+    #containerBotoes{
+        flex-direction: row;
+        margin: 30px 0px;
+    }
+
+    #contagem{
+        margin: 30px 0px;
+    }
+
+    .btn{
+        margin: 0px 40px;
+    }
+}
