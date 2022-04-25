@@ -27,13 +27,29 @@ main{
     padding: 0px;
     height: 50%;
     width: 50%;
+    font-size: 1.2rem;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
 }
 
 .contato img{
     height: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    main{
+        height: 83vh;
+    }
+
+    .contato a { 
+        font-size: 2rem;
+    }
+    
+    .contato a:hover {
+        color: white;
+    }
 }

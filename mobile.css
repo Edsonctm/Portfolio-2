@@ -22,6 +22,7 @@ CSS para versão mobile*/
     display: grid;
     grid-template-rows: 4fr 1fr;
     place-items: center;
+    overflow: hidden;
 }
 
 .menuBarPrinc{
