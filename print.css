@@ -1,0 +1,25 @@
+header.mobile, header.desktop {
+    display: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a::after{
+    content: " (" attr(href) ") ";
+    font-style: italic;
+  }
+
+  p {
+      font-size: 1.1rem !important;
+  }
+
+  @page{
+      size:auto; 
+      margin:5mm;
+    }
+
+    .pessoais {
+        margin-top: -10px !important;
+    }
