@@ -51,6 +51,17 @@
     padding: 0px;
 }
 
+.certificados{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.certificados p{
+    width: 30%;
+    margin: 10px;
+}
+
 /*Responsividade*/
 
 @media screen and (min-width: 1000px) {
